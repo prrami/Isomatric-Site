@@ -2021,7 +2021,7 @@ body {
   padding-bottom: 15px;
    background-image:url('../../../assets/images/automation/back1.png');
     position: relative; 
-    
+    height: 500px;
 }
 .automationlayer{
        
@@ -4906,19 +4906,13 @@ body {
 .cid-qV2mVenaXC .dropdown-item:hover {
   color: #ff3636 !important;
 }
-.cid-transparentdiv {
-  padding-top: 105px;
-  padding-bottom: 30px;
-  background-color: white;
-}
 .cid-qVdsLGUICT {
   padding-top: 105px;
   padding-bottom: 30px;
   background-image: url("../../../assets/images/back.jpg");
 }
-
 .cid-abcdeGUICT {
-  padding-top: 50px;
+  padding-top: 105px;
   padding-bottom: 30px;
   background-color: #c9212a;
 }
