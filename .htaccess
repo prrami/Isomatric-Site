@@ -1,7 +1,7 @@
 <IfModule mod_headers.c>
-    RewriteEngine On
-    RewriteCond %{HTTP_HOST} ^isomatric.com [NC]
-    RewriteRule ^(.*)$ http://www.isomatric.com/$1 [L,R=301]
+    RewriteEngine on
+    RewriteCond %{HTTP_HOST} ^www\.isomatric\.com
+    RewriteRule ^(.*)$ http://isomatric.com$1 [R=permanent,L]
 
     Header set Cache-Control "no-cache, no-store, must-revalidate"
     Header set Pragma "no-cache"
